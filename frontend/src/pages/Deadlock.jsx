@@ -142,7 +142,7 @@ function Deadlock() {
       setNeedMatrix(need);
       setSafeSequence(sequence);
       setSafeState(completed === processCount);
-    } catch (error) {
+    } catch {
       alert("Invalid Input");
     }
   };
